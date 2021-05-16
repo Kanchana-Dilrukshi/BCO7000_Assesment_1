@@ -1,0 +1,36 @@
+---
+title: "Assessment1.1"
+author: "Kanchana Mulgoda Hewage s4645551"
+date: "16/05/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# RMarkdown editing
+
+**RMarkdown** is an easy-to-write plain text format for *creating dynamic documents and reports*. 
+
+[link](https://rmarkdown.rstudio.com/lesson-8.html)
+
+```{r}
+library(tidyverse)
+
+fastfood<-read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2018/2018-09-04/fastfood_calories.csv')
+
+
+fastfood%>%head(10)
+
+fastfood%>%filter(calories>1000)
+
+fastfood%>%filter(total_fat>40 & total_carb>80)
+
+dont_eat_this<-"fastfood%>%filter(total_fat>40 & total_carb>80)"
+
+```
+
+
+
