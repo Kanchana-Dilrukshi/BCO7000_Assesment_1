@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # RMarkdown editing
 
-**RMarkdown** is an easy-to-write plain text format for *creating dynamic documents and reports*. 
+**R Markdown documents are fully reproducible.** *Use a productive notebook interface to weave together narrative text and code to produce elegantly formatted output.* ***Use multiple languages including R, Python, and SQL.***. 
 
 [link](https://rmarkdown.rstudio.com/lesson-8.html)
 
